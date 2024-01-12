@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+}
+nav{
+    background-color: powderblue;
+}
+nav h1{
+    color: white;
+}
+nav h2 {
+    color: grey;
+}
+.InputSection{
+    display: flex;
+    flex-direction: column;
+}
+#SquareSide{
+    outline: none;
+    border-radius: 8px;
+    border: solid paleturquoise;
+    padding: 10px;
+}
+#SquareSide :focus-visible {
+    border: solid palevioletred;
+}
+button {
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: palegreen;
+    border: solid palegreen;
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    background-color: palevioletred;
+}
