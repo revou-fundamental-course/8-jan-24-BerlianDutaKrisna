@@ -6,12 +6,51 @@ header{
 }
 nav{
     background-color: powderblue;
+    display: flex;
+    justify-content: center;
 }
 nav h1{
     color: white;
+    margin: 10px;
+    font-size: 50px;
 }
 nav h2 {
     color: grey;
+    margin-top: 38px;
+    font-size: 20px;
+}
+p{
+    margin: 0px;
+    font-size: 20px;
+}
+div.luasKeliling{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}div.luasKeliling button{
+    font-size: 30px;
+    background-color: paleturquoise;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    color: white;
+    cursor: pointer;
+}
+.gambarPersegi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rumus{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.jenisPengerjaan{
+    display: block;
+    font-size: 30px;
+    text-align: center;
 }
 .InputSection{
     display: flex;
@@ -26,7 +65,12 @@ nav h2 {
 #SquareSide :focus-visible {
     border: solid palevioletred;
 }
-button {
+div.buttonHasil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.buttonHasil button{
     outline: none;
     border: none;
     border-radius: 8px;
@@ -34,7 +78,23 @@ button {
     border: solid palegreen;
     color: white;
     cursor: pointer;
+    font-size: 30px;
+}
+div.buttonReset{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+div.buttonReset button{
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    background-color: palevioletred;
+    border: solid palevioletred;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
 }
 button:hover{
-    background-color: palevioletred;
+    background-color: red;
 }
