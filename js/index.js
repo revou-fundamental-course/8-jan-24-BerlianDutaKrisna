@@ -39,6 +39,10 @@ function btnKeliling(){
 function btnReset(){
     document.getElementById('input').value= "";
     document.getElementById("luasBerapa").innerHTML = "";
-            document.getElementById("luasKali").innerHTML = "";
-            document.getElementById("hasil").innerHTML = "";
+    document.getElementById("luasKali").innerHTML = "";
+    document.getElementById("hasil").innerHTML = "";
+    document.getElementById("labelRumus").innerHTML = ""
+    document.getElementById("labelInput").innerHTML = ""
+    document.getElementById("rumus").innerHTML = ""
+    document.getElementById("hitungLuas").innerHTML = ""
 }
