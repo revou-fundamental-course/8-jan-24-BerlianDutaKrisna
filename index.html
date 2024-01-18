@@ -19,8 +19,8 @@
             <p>Sebuah web aplikasi sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun</p>
         </header>
             <div class="luasKeliling">
-                <button id="luasPersegiId" onclick="(luas())">Luas Persegi</button>
-                <button id="KelilingPersegiId" onclick="(keliling())">Keliling Persegi</button>
+                <button id="luasPersegiId" onclick="luas()">Luas Persegi</button>
+                <button id="KelilingPersegiId" onclick="keliling()">Keliling Persegi</button>
             </div>
             <img class="gambarPersegi" src="assets/persegi.jpg" width="200px" alt="persegi">
             <br>
@@ -30,7 +30,7 @@
                 <p>yaitu:</p>
             </div>
             <div class="rumus">
-                <p id="rumus">CONTOH</p>
+                <p id="rumus"></p>
             </div>           
             <p>Di mana :</p>
             <p>S = Sisi</p>
@@ -40,18 +40,19 @@
                     <p id="labelInput"></p>
                 </div>
                 <br>
-                <input type="number" id="SquareSide" placeholder="Input panjang sisi persegi ( S )">
+                <input type="number" id="input" placeholder="Input panjang sisi persegi ( S )" onclick="this.value =''">
             </div>
             <div class="rumusHitung">
-                <p>L=SxS CONTOH</p>
-                <p>L=40x40 CONTOH</p>
-                <p>L=400 CONTOH</p>
+                <p id="luasBerapa"></p>
+                <p id="luasKali"></p>
+                <p id="hasil"></p>
             </div>
             <div class="buttonHasil">
-                <button id="resultId" class="result">Hitung</button>
+                <button id="btnLuas" class="result" onclick="btnLuas()">Hitung Luas Persegi</button>
+                <button id="btnKeliling" class="result" onclick="btnKeliling()">Hitung Keliling Persegi</button>
             </div>
             <div class="buttonReset">
-                <button id="resetId" class="reset">Reset</button>
+                <button id="btnReset" class="reset" onclick="btnReset()">Reset</button>
             </div>
 </body>
 <script src="js/index.js"></script>

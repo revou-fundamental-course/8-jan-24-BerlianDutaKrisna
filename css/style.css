@@ -61,14 +61,15 @@ div.luasKeliling{
     display: flex;
     flex-direction: column;
 }
-#SquareSide{
+#input{
     outline: none;
     border-radius: 8px;
     border: solid paleturquoise;
     padding: 10px;
     text-align: center;
+    font-size: 30px;
 }
-#SquareSide :focus-visible {
+#input :focus-visible {
     border: solid palevioletred;
 }
 div.buttonHasil{
@@ -80,11 +81,15 @@ div.buttonHasil button{
     outline: none;
     border: none;
     border-radius: 8px;
-    background-color: palegreen;
-    border: solid palegreen;
     color: white;
     cursor: pointer;
     font-size: 30px;
+}
+#btnLuas{
+    background-color: palegreen;
+}
+#btnKeliling{
+    background-color: palegoldenrod;
 }
 div.buttonReset{
     display: flex;
