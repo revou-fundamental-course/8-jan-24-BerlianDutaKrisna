@@ -38,4 +38,7 @@ function btnKeliling(){
 }
 function btnReset(){
     document.getElementById('input').value= "";
+    document.getElementById("luasBerapa").innerHTML = "";
+            document.getElementById("luasKali").innerHTML = "";
+            document.getElementById("hasil").innerHTML = "";
 }
