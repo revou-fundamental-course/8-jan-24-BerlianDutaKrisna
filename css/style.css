@@ -20,7 +20,7 @@ nav h2 {
     font-size: 20px;
 }
 p{
-    margin: 0px;
+    margin: 5px;
     font-size: 20px;
 }
 div.luasKeliling{
@@ -41,16 +41,21 @@ div.luasKeliling{
     margin-left: auto;
     margin-right: auto;
 }
+.labelRumus{
+    display: flex;
+}
 .rumus{
     display: block;
     text-align: center;
     font-size: 30px;
     font-weight: bold;
 }
-.jenisPengerjaan{
-    display: block;
+.labelInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 30px;
-    text-align: center;
+    font-weight: bold;
 }
 .InputSection{
     display: flex;
@@ -61,6 +66,7 @@ div.luasKeliling{
     border-radius: 8px;
     border: solid paleturquoise;
     padding: 10px;
+    text-align: center;
 }
 #SquareSide :focus-visible {
     border: solid palevioletred;

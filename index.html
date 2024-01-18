@@ -19,25 +19,33 @@
             <p>Sebuah web aplikasi sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun</p>
         </header>
             <div class="luasKeliling">
-                <button id="luasPersegi">Luas Persegi</button>
-                <button id="KelilingPersegi">Keliling Persegi</button>
+                <button id="luasPersegiId">Luas Persegi</button>
+                <button id="KelilingPersegiId">Keliling Persegi</button>
             </div>
             <img class="gambarPersegi" src="assets/persegi.jpg" width="200px" alt="persegi">
             <br>
-            <p>Rumus Luas Persegi yaitu:</p>
-            <p class="rumus">L = S x S</p>
-            <p>Di mana:</p>
-            <p>L=Luas</p>
-            <p>S=Sisi</p>
+            <div class="labelRumus">
+                <p>Rumus</p>
+                <p>CONTOH</p>
+                <p>yaitu:</p>
+            </div>
+            <div class="rumus">
+                <p>CONTOH</p>
+            </div>           
+            <p>Di mana :</p>
+            <p>S = Sisi</p>
             <div class="InputSection">
-                <label class="jenisPengerjaan" for="SquareSide">Hitung Luas Persegi</label>
+                <div class="labelInput">
+                    <p>Hitung</p>
+                    <p>CONTOH</p>
+                </div>
                 <br>
-                <input type="number" id="SquareSide">
+                <input type="number" id="SquareSide" placeholder="Input panjang sisi persegi">
             </div>
             <div class="rumusHitung">
-                <p>L=SxS</p>
-                <p>L=40x40</p>
-                <p>L=400</p>
+                <p>L=SxS CONTOH</p>
+                <p>L=40x40 CONTOH</p>
+                <p>L=400 CONTOH</p>
             </div>
             <div class="buttonHasil">
                 <button id="resultId" class="result">Hitung</button>
@@ -46,4 +54,5 @@
                 <button id="resetId" class="reset">Reset</button>
             </div>
 </body>
+<script src="js/index.js"></script>
 </html>
