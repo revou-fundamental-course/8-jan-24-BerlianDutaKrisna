@@ -19,28 +19,28 @@
             <p>Sebuah web aplikasi sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun</p>
         </header>
             <div class="luasKeliling">
-                <button id="luasPersegiId">Luas Persegi</button>
-                <button id="KelilingPersegiId">Keliling Persegi</button>
+                <button id="luasPersegiId" onclick="(luas())">Luas Persegi</button>
+                <button id="KelilingPersegiId" onclick="(keliling())">Keliling Persegi</button>
             </div>
             <img class="gambarPersegi" src="assets/persegi.jpg" width="200px" alt="persegi">
             <br>
             <div class="labelRumus">
                 <p>Rumus</p>
-                <p>CONTOH</p>
+                <p id="labelRumus"></p>
                 <p>yaitu:</p>
             </div>
             <div class="rumus">
-                <p>CONTOH</p>
+                <p id="rumus">CONTOH</p>
             </div>           
             <p>Di mana :</p>
             <p>S = Sisi</p>
             <div class="InputSection">
                 <div class="labelInput">
                     <p>Hitung</p>
-                    <p>CONTOH</p>
+                    <p id="labelInput"></p>
                 </div>
                 <br>
-                <input type="number" id="SquareSide" placeholder="Input panjang sisi persegi">
+                <input type="number" id="SquareSide" placeholder="Input panjang sisi persegi ( S )">
             </div>
             <div class="rumusHitung">
                 <p>L=SxS CONTOH</p>

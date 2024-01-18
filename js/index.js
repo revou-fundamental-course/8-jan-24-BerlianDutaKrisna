@@ -1,11 +1,11 @@
-function luasPersegi() { 
-    // Access the button element by its ID 
-    var button = document.getElementById("luasPersegiId"); 
- 
-    // Retrieve the value of the button 
-    var buttonValue = button.value; 
- 
-    // Do something with the button value 
-    console.log("Button value: " + buttonValue); 
-    // You can now use the buttonValue variable in your JavaScript code 
-} 
+function luas(){
+    document.getElementById("labelRumus").innerHTML = "Luas Persegi"
+    document.getElementById("labelInput").innerHTML = "Luas Persegi"
+    document.getElementById("rumus").innerHTML = "L = S x S"
+}
+
+function keliling(){
+    document.getElementById("labelRumus").innerHTML = " Kelilling Persegi"
+    document.getElementById("labelInput").innerHTML = " Kelilling Persegi"
+    document.getElementById("rumus").innerHTML = "K = 4 x S"
+}
